@@ -25,7 +25,7 @@
 }
 
 .fish1 {
-  height: 100px;
+  height: 30px;
   top: 33%;
   left: -10%;
   transform: translateY(-50%);
@@ -33,7 +33,7 @@
 }
 
 .fish2 {
-  height: 100px;
+  height: 30px;
   top: 66%;
   left: -10%;
   transform: translateY(-50%);
@@ -41,14 +41,14 @@
 }
 
 .fish3 {
-  height: 100px;
+  height: 30px;
   left: -30%;
   top: 110%;
   animation: fishAnimation2 16s linear infinite 3s;
 }
 
 .smallFish {
-  height: 65px !important;
+  height:20px !important;
   top: 3%;
   left: -10%;
   opacity: 0.75;
@@ -58,7 +58,7 @@
 /* Sapsappy fish */
 .sapsappy {
   position: absolute;
-  height: 90px; 
+  height: 70px; 
   left: 50%;
   top: 50%;
   transform-origin: center;
