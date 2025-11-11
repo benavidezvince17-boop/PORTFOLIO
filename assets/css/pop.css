@@ -28,7 +28,7 @@
     #closeBtn {
       position: absolute;
       top: 20px;
-      right: 40px;
+      bottom: 40px;
       font-size: 35px;
       color: white;
       cursor: pointer;
