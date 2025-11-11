@@ -1,40 +1,26 @@
-
-/* Style the thumbnail image */
-#openImage {
-    width: 450px;        /* Make the preview image 400px */
-    height: 200px;
-    cursor: pointer;
-    border-radius: 5px;
-    padding-right: 30px;
-    padding-left: 30px;
-
-}.popup-trigger {
-
-  width: 200px;
+.popup-trigger {
+  width: 350px;
+  height: 200px;
   cursor: pointer;
   border-radius: 5px;
 }
 
-/* Fullscreen popup */
 #popup {
   display: none;
   position: fixed;
-  inset: 0; /* top:0, right:0, bottom:0, left:0 */
-  background: black; /* pure black overlay */
+  inset: 0;
+  background: black;
   justify-content: center;
   align-items: center;
   z-index: 9999;
 }
 
-/* Image fills entire screen but keeps aspect ratio */
 #popupImage {
   width: 100vw;
   height: 100vh;
-  object-fit: contain; /* shows the whole image without cropping */
-  background-color: black;
+  object-fit: contain;
 }
 
-/* Close button */
 #closeBtn {
   position: fixed;
   top: 20px;
@@ -42,6 +28,6 @@
   font-size: 45px;
   color: white;
   cursor: pointer;
-  z-index: 10000;
   font-weight: bold;
+  z-index: 10000;
 }
